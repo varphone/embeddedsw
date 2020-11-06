@@ -11,7 +11,7 @@ How to compile Zynq FSBL:
 
 	1.Go to the Fsbl src directory "lib/sw_apps/zynq_fsbl/src/"
 	2. make "BOARD=<>" "CC=<>"
-		a. Values for BOARD  are zc702, zc706, zed
+		a. Values for BOARD  are zc702, zc706, zed, zylaser
 		b. Value for CC is arm-none-eabi-gcc. Default value is also same.
 	3.Give "make" to compile the fsbl with BSP. By default it is
 	  built for zc702 board with arm-none-eabi-gcc compiler
